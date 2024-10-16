@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McZombie's Halloween Menu</title>
+    <link rel="stylesheet" href="zombie_styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="McDonald's Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="limited-time-notification">
+            <p>🎃 Spooky Zombie Theme Available for a Limited Time! 🎃</p>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-content">
+        <h1>Welcome to McDonalds's</h1>
+        <p>Where the food bites back!</p>
+        <a href="#menu" class="btn">Explore Our Scary Menu</a>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Zombie Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="images/zombie-burger.jpg" alt="Zombie Burger">
+                <h3>Zombie Burger</h3>
+            </div>
+            <div class="menu-item">
+                <img src="images/creepy-fries.jpg" alt="Creepy Fries">
+                <h3>Creepy Fries</h3>
+            </div>
+            <div class="menu-item">
+                <img src="images/drinks.jpg" alt="Blood Drinks">
+                <h3>Blood Drinks</h3>
+            </div>
+            <div class="menu-item">
+                <img src="images/ghoul-dessert.jpg" alt="Ghoul Desserts">
+                <h3>Ghoul Desserts</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations Section -->
+    <section id="locations" class="locations">
+        <h2>Find Us (If You Dare)</h2>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25063.21999279774!2d-85.67543888916013!3d38.25856730000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8869751f3dcfd31f%3A0xf5cf358f4b5939a3!2sMcDonald&#39;s!5e0!3m2!1sen!2sus!4v1729104859848!5m2!1sen!2sus"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact McDonald's</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 McDonald's Halloween Special</p>
+    </footer>
+
+    <script src="zombie_scripts.js"></script>
+</body>
+</html>
